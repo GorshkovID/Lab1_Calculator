@@ -30,3 +30,36 @@ body {
   font-size: 56px;
   padding: 10px;
 }
+
+.calc_btn {
+  border: none;
+  border-radius: 5px;
+  background-color: #eee;
+  cursor: pointer;
+
+  font-size: 30px;
+  box-shadow: 2px 3px 2px rgb(0, 0, 0, 0.5);
+}
+
+.calc_btn:hover {
+  opacity: 0.9;
+}
+
+.calc_btn:active {
+  box-shadow: 1px 1px 2px rgb(0, 0, 0, 0.5);
+}
+
+.calc_btn_operator {
+  background-color: #ffe2ae;
+}
+
+.calc_btn_reset {
+  background-color: #ff5050;
+  color: #fff;
+}
+
+.calc_btn_equal {
+  background-color: #5d50ff;
+  color: #fff;
+  grid-column: 2 / -1;
+}
