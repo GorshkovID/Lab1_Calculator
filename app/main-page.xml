@@ -1,9 +1,28 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
-    <ActionBar title="My App" icon="" />
+    <article class="calc">
+        <output class="calc_result" id="result"><output>
 
-    <StackLayout class="p-20">
-        <Label text="Tap the button" class="h1 text-center" />
-        <Button text="TAP" tap="{{ onTap }}" class="-primary" />
-        <Label text="{{ message }}" class="h2 text-center" textWrap="true" />
-    </StackLayout>
+        <button type="button" class="calc_btn">7</button>
+        <button type="button" class="calc_btn">8</button>
+        <button type="button" class="calc_btn">9</button>
+        <button type="button" class="calc_btn">+</button>
+
+        <button type="button" class="calc_btn">4</button>
+        <button type="button" class="calc_btn">5</button>
+        <button type="button" class="calc_btn">6</button>
+        <button type="button" class="calc_btn">-</button>
+
+        <button type="button" class="calc_btn">1</button>
+        <button type="button" class="calc_btn">2</button>
+        <button type="button" class="calc_btn">3</button>
+        <button type="button" class="calc_btn">*</button>
+
+        <button type="button" class="calc_btn">0</button>
+        <button type="button" class="calc_btn">.</button>
+        <button type="button" class="calc_btn">00</button>
+        <button type="button" class="calc_btn">/</button>
+
+        <button type="button" class="calc_btn">C</button>
+        <button type="button" class="calc_btn">=</button>
+    </article>
 </Page>
