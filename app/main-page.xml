@@ -1,4 +1,5 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+<body>
     <article class="calc">
         <output class="calc_result" id="result"><output>
 
@@ -25,4 +26,5 @@
         <button type="button" class="calc_btn calc_btn_reset">C</button>
         <button type="button" class="calc_btn calc_btn_equal">=</button>
     </article>
+</body>
 </Page>
