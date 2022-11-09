@@ -1,5 +1,5 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
-<StackLayout>
+<StackLayout class="body">
 	<StackLayout class="calc">
         <label class="calc_result" id="result"></label>
 
