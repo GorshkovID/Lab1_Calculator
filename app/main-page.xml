@@ -1,7 +1,7 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
-<body>
-    <article class="calc">
-        <output class="calc_result" id="result"><output>
+<StackLayout>
+	<StackLayout class="calc">
+        <label class="calc_result" id="result"></label>
 
         <button type="button" class="calc_btn">7</button>
         <button type="button" class="calc_btn">8</button>
@@ -25,6 +25,6 @@
 
         <button type="button" class="calc_btn calc_btn_reset">C</button>
         <button type="button" class="calc_btn calc_btn_equal">=</button>
-    </article>
-</body>
+    </StackLayout>
+</StackLayout>
 </Page>
