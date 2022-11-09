@@ -3,28 +3,28 @@
 	<StackLayout class="calc">
         <label class="calc_result" id="result"></label>
 
-        <button type="button" class="calc_btn">7</button>
-        <button type="button" class="calc_btn">8</button>
-        <button type="button" class="calc_btn">9</button>
-        <button type="button" class="calc_btn calc_btn_operator">+</button>
+        <button type="button" text="7" class="calc_btn"></button>
+        <button type="button" text="8" class="calc_btn"></button>
+        <button type="button" text="9" class="calc_btn"></button>
+        <button type="button" text="+" class="calc_btn calc_btn_operator"></button>
 
-        <button type="button" class="calc_btn">4</button>
-        <button type="button" class="calc_btn">5</button>
-        <button type="button" class="calc_btn">6</button>
-        <button type="button" class="calc_btn calc_btn_operator">-</button>
+        <button type="button" text="4" class="calc_btn"></button>
+        <button type="button" text="5" class="calc_btn"></button>
+        <button type="button" text="6" class="calc_btn"></button>
+        <button type="button" text="-" class="calc_btn calc_btn_operator"></button>
 
-        <button type="button" class="calc_btn">1</button>
-        <button type="button" class="calc_btn">2</button>
-        <button type="button" class="calc_btn">3</button>
-        <button type="button" class="calc_btn calc_btn_operator">*</button>
+        <button type="button" text="1" class="calc_btn"></button>
+        <button type="button" text="2" class="calc_btn"></button>
+        <button type="button" text="3" class="calc_btn"></button>
+        <button type="button" text="*" class="calc_btn calc_btn_operator"></button>
 
-        <button type="button" class="calc_btn">0</button>
-        <button type="button" class="calc_btn">.</button>
-        <button type="button" class="calc_btn">00</button>
-        <button type="button" class="calc_btn calc_btn_operator">/</button>
+        <button type="button" text="0" class="calc_btn"></button>
+        <button type="button" text="." class="calc_btn"></button>
+        <button type="button" text="00" class="calc_btn"></button>
+        <button type="button" text="/" class="calc_btn calc_btn_operator"></button>
 
-        <button type="button" class="calc_btn calc_btn_reset">C</button>
-        <button type="button" class="calc_btn calc_btn_equal">=</button>
+        <button type="button" text="C" class="calc_btn calc_btn_reset"></button>
+        <button type="button" text="=" class="calc_btn calc_btn_equal"></button>
     </StackLayout>
 </StackLayout>
 </Page>
